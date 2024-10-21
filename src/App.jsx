@@ -1,15 +1,12 @@
 import { useState } from "react";
+import Hero from "./components/Spline";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="font-audiowide font-bold text-3xl">
-        hi there dave here
-      </div>
-      <div>hi there priya here</div>
-      <div>lorem1200</div>
+      <Hero />
     </>
   );
 }
