@@ -6,7 +6,14 @@ function App() {
 
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
+      <div className="text-center font-bold text-3xl font-audiowide">
+        NITK Racing
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore
+        nisi delectus.
+      </div>
     </>
   );
 }
